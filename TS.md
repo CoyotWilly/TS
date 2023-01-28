@@ -173,7 +173,7 @@ Policzyć ładnie $det(\lambda I - (A-LB))$, i wychodzą równania na $\lambda$ 
 Że co? (ZNÓW ZNOWU?!)
 
 ## Zadanie 31 {C}
-r - y referencyjne
+r $\rightarrow$ y referencyjne
 
 $$
 \dot{x_1} = 2x_2 \\ 
