@@ -36,7 +36,7 @@ Automat komórkowy jest dyskretnie dyskretny, więc opisany jest w czasie dyskre
 
 ## Zadanie 8 
 $$
-\frac{s^3 + 1}{2s^3 + s^2} = \frac{1}{2}\cdot\frac{s^3 + 1}{s^3 + \frac{1}{2}s^2} = \frac{1}{2} \cdot \frac{(s^3 + \frac{1}{2}s^2) - \frac{1}{2}s^2 + 1}{- \frac{1}{2}s^2 + 1} = \frac{1}{2} + \frac{1}{2} \cdot \frac{- \frac{1}{2}s^2 + 1}{s^3 + \frac{1}{2}s^2} = \frac{1}{2} + \frac{- \frac{1}{4}s^2 + \frac{1}{2}}{s^3 + \frac{1}{2}s^2} \\
+\frac{s^3 + 1}{2s^3 + s^2} = \frac{1}{2}\cdot\frac{s^3 + 1}{s^3 + \frac{1}{2}s^2} = \frac{1}{2} \cdot \frac{(s^3 + \frac{1}{2}s^2) - \frac{1}{2}s^2 + 1}{s^3 + \frac{1}{2}s^2} = \frac{1}{2} + \frac{1}{2} \cdot \frac{- \frac{1}{2}s^2 + 1}{s^3 + \frac{1}{2}s^2} = \frac{1}{2} + \frac{- \frac{1}{4}s^2 + \frac{1}{2}}{s^3 + \frac{1}{2}s^2} \\
 A = \begin{bmatrix}
  0 & 1 & 0\\
  0 & 0 & 1\\
