@@ -46,7 +46,7 @@ B = \begin{bmatrix}
     0\\0\\1
 \end{bmatrix}\space
 C = \begin{bmatrix}
-    -\frac{1}{4} & 0 & \frac{1}{2}
+    \frac{1}{2} & 0 & -\frac{1}{4}
 \end{bmatrix}\space
 D = \begin{bmatrix}
     \frac{1}{2}
@@ -151,8 +151,8 @@ Wyznaczyć wartości własne $\lambda z macierzy A$ $\lambda_1 = 7, \lambda_2 = 
 ## Zadanie 23
 Chyba strzelałbym w postać normalną Jordana rzeczywistą, gdzie rozkładamy dodatkowo bieguny zespolone poza główną przekątną... ale to nadal gówno a nie odp. Chyba że to po prostu jakaś forma normalna sterowalna\modalna\obserwowalna ale MIMO, czyli coś czego nie robiliśmy i nei robimy w sumie wcale...
 
-## Zadanie 24
-Że co?
+## Zadanie 24 {D}
+Macierz rozwiązania jest macierzą fundametnalną (tranzycji). Oznacza to, iż została wyliczona jako $\Phi = \mathcal{L} ^{-1} \{(Is - A)^{-1}\}$. Dzięki temu, znając macierz tranzycji możemy znaleźć wartości własne macierzy A. W macierzy tranzycji mamy $e^{-3t}$ i $e^{-2t}$, oznacza to, że wartości własne to $s_1 = -3$ i $s_2 = -2$, ze wzoru $\mathcal{L} ^{-1}(G(s)) = \displaystyle{\lim_{s \to s_n}}(s-s_n)G(s)e^{s_nt}$ Teraz wystarczy podstawiać odpowiedzi tak, aby uzyskać wybrane wartości własne. 
 
 ## Zadanie 25
 Że co? (ZNOWU?!)
@@ -188,14 +188,12 @@ $$
 ## Zadanie 32 
 Nie wiem
 
-## Zadanie 33
+## Zadanie 33 {C; D}
 ![Tekst z prezentacji](1.png)
 
-A  - ponieważ warunki sterowalności i osiągalności są takie same (macierz ctrb etc) to odpada
-
-B - bullshiet totalny
-
-D - nie mam pojęcia jakie musi być Q
+- a) ponieważ warunki sterowalności i osiągalności są takie same (macierz ctrb etc) to odpada
+- b) bullshiet totalny
+- d) nie mam pojęcia jakie musi być Q, ale chyba też poprawna
 
 Na pewno C jest prawidłowa tbh
 
